@@ -1,0 +1,30 @@
+.searchContainer {
+    height: 48px;
+    width: 568px;
+    border: 1px solid var(--color-black);
+    display: block;
+    border-radius: 8px;
+}
+
+.searchInput {
+    height: 100%;
+    width: calc(100% - 66px);
+    top: -7px;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+    border: none;
+    border-right: none !important;
+    padding: 14px 20px;
+    position: relative;
+}
+
+.searchBtn {
+    height: 46px;
+    width: 66px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    padding: 14px 20px;
+    background-color: var(--color-white);
+    border-left: 1px solid var(--color-black);
+    cursor: pointer;
+}
